@@ -1,0 +1,432 @@
+
+/* GOOGLE FONTS   */
+/* 
+ОПТИМІЗОВАНІ ШРИФТИ
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@700&display=swap'); */
+
+@import url(https://fonts.googleapis.com/css?family=Manrope:300,regular,500,700);
+
+/* ОПТИМІЗОВАНІ ШРИФТИ */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@600&display=swap');
+
+/* ОПТИМІЗОВАНІ ШРИФТИ */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,700&display=swap');
+
+/* ОПТИМІЗОВАНІ ШРИФТИ */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500&display=swap');
+
+@import url(https://fonts.googleapis.com/css?family=Bungee+Tint:regular);
+
+
+/* ЛОКАЛЬНЕ ПІДКЛЮЧЕННЯ ШРИФТІВ */
+@import url("fonts.css");
+
+
+@import url("reset.css");
+
+/* BODY */ 
+
+body {
+    /* font-family: "Manrope"; */
+    /* font-family: "Gilroy"; */
+    font-family: "Gilroy", sans-serif;
+    font-size: 16px;
+    background-color: #7a956b;
+    /* background-color:#999999; */
+    color:#fff;
+}
+
+.first-section {
+    margin-bottom: 50px;
+    /* bgc - успадковано від Боді */
+}
+
+.block {
+    background-color:sienna;
+    padding-block: 20px;
+    padding-inline: 50px;
+    /* = */
+    /* padding: 20px 0px; */
+    /* або */
+    /* padding: 20px 0px 20px 0px; */
+    /* або */
+    /* padding-top: 20px; */
+    /* padding-bottom: 20px; */
+}
+.inline {
+    background-color:blue;
+    /* padding-block: 20px; неочікувана поведінка */
+    padding-inline: 50px; 
+    /* = */
+    /* padding: 20px 0px; */
+    /* або */
+    /* padding: 20px 0px 20px 0px; */
+    /* або */
+    /* padding-top: 20px; */
+    /* padding-bottom: 20px; */
+
+/* На Рядково-Блочні об'єкти відступи діють так само як на - Блочні елементи (але при встановленні внутр.падінгу, зображення залишає свій розмір) */
+}
+.inline-block {
+    background-color:blueviolet;
+    padding: 20px;
+}
+
+/* =========================== PADDING ============================= */
+
+.second-section-padding {
+    background-color:cadetblue;
+    padding: 40px 30px 50px;
+    /* margin-bottom: 50px; */
+    margin-block: 50px;
+}
+.padding-vertical {
+    /* padding-top: 20px; не стабільно */
+    padding-block: 20px;
+    /* padding-left: 30px;  не стабільно */
+    padding-inline: 30px;
+    max-width: 300px;
+    background-color:cornflowerblue;
+    margin-bottom: 50px;
+}
+.padding-horizontal {
+    /* padding-top: 20px; не стабільно */
+    padding-block-start: 20px;
+    padding-block-end: 20px;
+    /* padding-left: 30px;  не стабільно */ 
+    padding-inline-start: 30px;
+    padding-inline-end: 30px;
+    max-width: 300px;
+    background-color:cornflowerblue;
+    writing-mode: vertical-rl;
+    margin-bottom: 50px;
+}
+.padding-level-2-vertical {
+    max-inline-size: 200px;
+    background-color:rgb(148, 183, 248);
+    margin-bottom: 50px;
+}
+
+.padding-level-2-horizontal {
+    max-inline-size: 200px;
+    background-color:rgb(148, 183, 248);
+    writing-mode: vertical-rl;
+    margin-bottom: 50px;
+}
+
+/* =========================== MARGIN ============================= */
+
+.third-section-margin {
+    background-color:rgb(158, 90, 34);
+    padding: 40px 30px 50px;
+    /* margin-bottom: 50px; */
+    /* margin-block: 50px; */
+}
+.margin-vertical {
+     /* padding-top: 20px; не стабільно */
+    padding-block: 20px;
+    /* padding-left: 30px;  не стабільно */
+    padding-inline: 30px;
+    max-width: 300px;
+    background-color:cornflowerblue;
+    margin-bottom: 50px;
+}
+.margin-horizontal {
+    /* padding-top: 20px; не стабільно */
+    padding-block-start: 20px;
+    padding-block-end: 20px;
+    /* padding-left: 30px;  не стабільно */ 
+    padding-inline-start: 30px;
+    padding-inline-end: 30px;
+    max-width: 300px;
+    background-color:cornflowerblue;
+    writing-mode: vertical-rl;
+    margin-bottom: 50px;
+}
+.margin-level-2-vertical {
+    max-inline-size: 200px;
+    background-color:rgb(148, 183, 248);
+    margin-bottom: 50px;
+}
+.margin-level-2-horizontal {
+    max-inline-size: 200px;
+    background-color:rgb(148, 183, 248);
+    writing-mode: vertical-rl;
+    margin-bottom: 50px;
+}
+
+/* =========================== Ефект "схлопування"  ============================= */
+
+.fourth-section-collaps {
+    margin-block-end: 50px;
+}
+
+.fourth-section-collaps div {
+    background-color:bisque;
+    color:black;
+    margin-bottom: 50px;
+}
+
+.fourth-section-collaps span {
+    background-color:rgb(209, 136, 48);
+    color:black;
+    margin-top: 20px;
+}
+
+/* =========================== RULES  ============================= */
+
+.fifth-section-rules {
+    background-color:darkgrey;
+    padding-block: 50px;
+    padding-inline: 50px;
+}
+
+.rules-container {
+    background-color:darkcyan;
+    /* width: auto; */
+}
+
+.widh-rules {
+    margin: 0 auto;
+    max-width: 500px;
+    padding-block: 50px;
+    padding-inline: 50px;
+    background-color:rgb(52, 221, 221);
+}
+
+/* =========================== overflow   ============================= */
+
+.sixth-overflow {
+    background-color:darkgrey;
+    padding-block: 50px;
+    padding-inline: 50px;
+}
+
+.overflow-container {
+    margin: 0 auto;
+    max-width: 570px;
+    padding-block: 50px;
+    padding-inline: 50px;
+    background-color:rgb(52, 221, 221);
+    height: 800px;
+    overflow-y: auto;
+}
+
+/* =========================== МАКЕТ 1   ============================= */
+
+.maket-1 {
+    background: #141414;
+    margin: 0 auto;
+
+}
+.maket-1_container {
+    margin: 0 auto;
+    padding-block-start: 150px;
+    padding-block-end: 150px;
+    max-width: 1597px;
+}
+.maket-1_heading {
+    color: #FFF;
+    font-family: Manrope;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 150%;
+    max-width: 1297px;
+    margin-block-end: 14px;
+}
+.maket-1_text {
+    color: #999;
+    font-family: Manrope;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 150%;
+    max-width: 1297px;
+    margin-block-end: 80px;
+}
+.maket-1_cards {
+    display: inline-block;
+    font-size: 0;
+    margin: 0 -30px -30px 0;
+}
+.item-container-m3 {
+    display: inline-block;
+    width: 33.333%;
+    /* margin-inline-end: 30px; */
+    /* margin-block-end: 30px; */
+    padding: 0 30px 30px 0;
+}
+.item {
+    display: inline-block;
+    background: linear-gradient(222deg, rgba(229, 0, 0, 0.50) -208.03%, rgba(229, 0, 0, 0.00) 41.32%), #0F0F0F;
+    padding: 50px;
+}
+
+/* .item.item-last {
+    margin-inline-end: 0;
+}
+.item.bottom {
+    margin-block-end: 0;
+} */
+
+.item-title {
+    padding-block-end: 30px;
+}
+
+.item-title img {
+    padding-inline-end: 16px;
+}
+
+.item-title h3 {
+    display: inline-block;
+    color: #FFF;
+    font-family: Manrope;
+    font-size: 24px;
+    font-weight: 600;
+    /* vertical-align: middle; */
+    line-height: 250%;
+}
+.item-text {
+    color: #999;
+    font-family: Manrope;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+/* =========================== МАКЕТ 2   ============================= */
+
+.maket-2 {
+    background: #FFF;
+}
+.maket-2-container {
+    max-width: 539px;
+    margin: 0 auto;
+    padding-block: 240px 240px;
+}
+.maket-2-container h1 {
+    color: #091133;
+    font-family: Roboto;
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 132%;
+}
+.maket-2-container p {
+    color: #505F98;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 166.667%;
+    margin-block-end: 18px;
+}
+
+.maket-2-text {
+    margin-block-end: 74px;
+}
+
+.button-1 {
+    display: inline-block;
+    background: #111B47;
+    color: #fff;
+    width: 189px;
+    height: 36px;
+
+    text-align: center;
+    
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 200%;
+    margin-inline-end: 30.15px;
+}
+.button-2 {
+    display: inline-block;
+    background: #111B47;
+    color: #fff;
+    width: 189px;
+    height: 36px;
+
+    text-align: center;
+    
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 200%;
+}
+
+/* =========================== МАКЕТ 3   ============================= */
+
+.maket-3 {
+    background: #FFF;
+}
+.maket-3-container {
+    max-width: 520px;
+    margin: 0 auto;
+    padding-block: 240px 240px;
+}
+
+.maket-3-text {
+    margin-block-end: 70px;
+}
+
+.maket-3-text h1 {
+    color: #091133;
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 133.333%;
+    margin-block-end: 16px;
+}
+.maket-3-text p {
+    color: #6F7CB2;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 162.5%;
+}
+
+.cards-m3 {
+    display: inline-block;
+    font-size: 0;
+    margin: 0 -30px -30px 0;
+}
+
+.item-m3 {
+    display: inline-block;
+    width: 50%;
+    min-height: 138px;
+    padding: 0 30px 30px 0;
+}
+
+/* .item-m3.last-m3 {
+    margin-inline-end: 0px;
+}
+
+.item-m3.bottom-m3 {
+    margin-block-end: 0px;
+} */
+
+.item-m3 img {
+    margin-block-end: 14px;
+}
+
+.item-m3 h3 {
+    color: #091133;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 162.5%;
+    margin-block-end: 6px;
+}
+
+.item-m3 p {
+    color: #5D6970;
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 150%;
+}
+

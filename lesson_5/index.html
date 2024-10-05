@@ -1,0 +1,1082 @@
+<!DOCTYPE html>
+<!-- Ukraine - uk -->
+<!-- Мова не визначена - zxx -->
+<!-- Коди мов https://html-css.co.ua/html/lang-kodu-mov/ -->
+<html lang="uk">
+	<head>
+		<!-- Кодування тексту -->
+		<meta charset="UTF-8">
+		<!-- Налаштування в'юпорту (адаптиву, масштабу тощо) -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<!-- Підключення Шрифтів через HTML -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+		<!--Варіант №3 !! Основний !! (підключення окремого файлу) -->
+		<link rel="stylesheet" href="css/style.css">
+		<!-- Заголовок сторінки в браузері -->
+		<title>Lesson 03</title>
+	</head>
+	<body>
+		<header>
+			<div class="first-section">
+				<div class="block">BODY Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, modi? Sit tempore numquam quas nesciunt error. Illo possimus veniam tempora voluptatibus excepturi ut nesciunt in harum, necessitatibus animi corporis incidunt! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam asperiores quis, accusantium voluptates aperiam velit explicabo! Aut, consequuntur et nam vitae doloremque quasi? Dolorem quas quae totam ut voluptatum nobis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam totam odio eius porro. Doloremque nostrum maxime nemo vitae obcaecati tenetur, accusantium incidunt, dolor reiciendis officia quis! Quidem optio recusandae incidunt?</div>
+				<span class="inline">INLINE Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi ipsum molestiae labore similique rem culpa omnis, delectus quam voluptatibus eaque quas quasi? Alias accusantium error suscipit sapiente voluptatum blanditiis recusandae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut quisquam, nesciunt aspernatur eligendi enim adipisci ab distinctio fuga fugit mollitia laudantium quibusdam totam veniam similique optio illo vitae quod? Labore! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus rem natus nam iure, doloremque autem quisquam totam earum perspiciatis ad numquam, molestiae sequi exercitationem ea! Natus eligendi laboriosam sint ratione.</span>
+				<img src="img/ukraine.jpeg" alt="Ukraine" class="inline-block">
+			</div>
+
+<!-- ================================================== PADDING ================================================== -->
+
+			<section class="second-section-padding">
+				<div class="padding-vertical">
+					<h2>Відступи PADDING</h2>
+					<h3>Як поводить себе padding з блочними, рядковими та блочно-рядковими об'єктами:</h3>
+					<P> 
+					Відступи неочікувано працюють для рядкових об'єктів<br>
+					Відступи прийнято задавати для батьківського об'єкту </P>
+
+					<p>padding - Внутрішній відступ. <br>
+					Відступи (відстань) ВСЕРЕДЕНІ об'єкту.<br> 
+					Від кордонів об'єкту ДО ЙОГО КОНТЕНТУ<br>
+					НЕ успадковується</p>
+
+					<p>Анатомія значення відступів:<br>
+					- Цифрове значення + одиниця виміру (10px, 50%... і т.д.)<br>
+					- Не може бути від'ємним<br>
+					- При вказанні значення у відсотках<br>
+					відсоток береться від ШИРИНИ батьківського об'єкту,
+					навіть для вертикальних відступів </p>
+
+					<p>padding: з_усіх_сторін;<br>
+					padding: зверху_знизу зправа_зліва;<br>
+					padding: зверху зправа_зліва знизу;<br>
+					padding: зверху зправа знизу зліва;<br>
+					(годинникова стрілка)</p>
+
+					<p>padding-top: значення;<br>
+					padding-right: значення;<br>
+					padding-bottom: значення;<br>
+					padding-left: значення;</p>
+				</div>
+				<div class="padding-horizontal">
+					<h2>Відступи PADDING</h2>
+					<h3>Як поводить себе padding з блочними, рядковими та блочно-рядковими об'єктами:</h3>
+					<P> 
+					Відступи неочікувано працюють для рядкових об'єктів<br>
+					Відступи прийнято задавати для батьківського об'єкту </P>
+
+					<p>padding - Внутрішній відступ. <br>
+					Відступи (відстань) ВСЕРЕДЕНІ об'єкту.<br> 
+					Від кордонів об'єкту ДО ЙОГО КОНТЕНТУ<br>
+					НЕ успадковується</p>
+
+					<p>Анатомія значення відступів:<br>
+					- Цифрове значення + одиниця виміру (10px, 50%... і т.д.)<br>
+					- Не може бути від'ємним<br>
+					- При вказанні значення у відсотках<br>
+					відсоток береться від ШИРИНИ батьківського об'єкту,
+					навіть для вертикальних відступів </p>
+
+					<p>padding: з_усіх_сторін;<br>
+					padding: зверху_знизу зправа_зліва;<br>
+					padding: зверху зправа_зліва знизу;<br>
+					padding: зверху зправа знизу зліва;<br>
+					(годинникова стрілка)</p>
+
+					<p>padding-top: значення;<br>
+					padding-right: значення;<br>
+					padding-bottom: значення;<br>
+					padding-left: значення;</p>
+				</div>
+				<div class="padding-level-2-vertical">
+					<h3>Level 2</h3>
+
+					<p>Задає однакові логічні блочні відступи на початку та вкінці
+					padding-block: ;<br>
+					Задає однакові логічні рядкові відступи зліва та справа
+					padding-inline: ;</p>
+
+					<p>padding-block: 20px;
+					=
+					padding: 20px 0px;<br>
+					або<br>
+					padding: 20px 0px 20px 0px;<br>
+					або<br>
+					padding-top: 20px;<br>
+					padding-bottom: 20px;</p>
+
+					<p>Різні значення <br>
+					padding-block: 10px 50px;<br>
+
+					padding-inline: 20px;
+					=
+					padding: 0px 20px;<br>
+					або<br>
+					padding: 0px 20px 0px 20px;<br>
+					або<br>
+					padding-left: 20px;
+					padding-right: 20px;<br>
+
+					Різні значення <br>
+					padding-inline: 10px 50px;</p>
+				</div>
+				<div class="padding-level-2-horizontal">
+					<h3>Level 2</h3>
+
+					<p>Задає однакові логічні блочні відступи на початку та вкінці
+					padding-block: ;<br>
+					Задає однакові логічні рядкові відступи зліва та справа
+					padding-inline: ;</p>
+
+					<p>padding-block: 20px;
+					=
+					padding: 20px 0px;<br>
+					або<br>
+					padding: 20px 0px 20px 0px;<br>
+					або<br>
+					padding-top: 20px;<br>
+					padding-bottom: 20px;</p>
+
+					<p>Різні значення <br>
+					padding-block: 10px 50px;<br>
+
+					padding-inline: 20px;
+					=
+					padding: 0px 20px;<br>
+					або<br>
+					padding: 0px 20px 0px 20px;<br>
+					або<br>
+					padding-left: 20px;
+					padding-right: 20px;<br>
+
+					Різні значення <br>
+					padding-inline: 10px 50px;</p>
+				</div>
+			</section>
+
+<!-- ================================================== MARGIN ================================================== -->
+
+			<section class="third-section-margin">
+				<div class="margin-vertical">
+					<h2>margin - Зовнішній відступ.</h2>
+					<p>Відступи ЗОВНІ об'єкту до інших об'єктів. <br>
+					НЕ успадковується</p><br>
+
+					<p>Особливості:<br>
+					- Значення можуть бути від'ємними!<br>
+					- Спрацьовує ефект "схлопування" <br>
+						(накладання, колапс, згортання)</p><br>
+
+					<p>margin: з_усіх_сторін;<br>
+					margin: зверху_знизу зправа_зліва;<br>
+					margin: зверху зправа_зліва знизу;<br>
+					margin: зверху зправа знизу зліва;<br></p>
+
+					<p>margin-top: значення;<br>
+					margin-right: значення;<br>
+					margin-bottom: значення;<br>
+					margin-left: значення;<br></p>
+				</div>
+				<div class="margin-horizontal">
+					<h2>Відступи PADDING</h2>
+					<h3>Як поводить себе padding з блочними, рядковими та блочно-рядковими об'єктами:</h3>
+					<P> 
+					Відступи неочікувано працюють для рядкових об'єктів<br>
+					Відступи прийнято задавати для батьківського об'єкту </P>
+
+					<p>padding - Внутрішній відступ. <br>
+					Відступи (відстань) ВСЕРЕДЕНІ об'єкту.<br> 
+					Від кордонів об'єкту ДО ЙОГО КОНТЕНТУ<br>
+					НЕ успадковується</p>
+
+					<p>Анатомія значення відступів:<br>
+					- Цифрове значення + одиниця виміру (10px, 50%... і т.д.)<br>
+					- Не може бути від'ємним<br>
+					- При вказанні значення у відсотках<br>
+					відсоток береться від ШИРИНИ батьківського об'єкту,
+					навіть для вертикальних відступів </p>
+
+					<p>padding: з_усіх_сторін;<br>
+					padding: зверху_знизу зправа_зліва;<br>
+					padding: зверху зправа_зліва знизу;<br>
+					padding: зверху зправа знизу зліва;<br>
+					(годинникова стрілка)</p>
+
+					<p>padding-top: значення;<br>
+					padding-right: значення;<br>
+					padding-bottom: значення;<br>
+					padding-left: значення;</p>
+				</div>
+				<div class="margin-level-2-vertical">
+					<h3>Level 2</h3>
+					<p>Задає однакові логічні блочні відступи на початку та вкінці<br>
+					margin-block: ;<br>
+					Задає однакові логічні рядкові відступи зліва та справа<br>
+					margin-inline: ;</p>
+
+					<p>margin-block: 20px;<br>
+					=<br>
+					margin: 20px 0px;<br>
+					або<br>
+					margin: 20px 0px 20px 0px;<br>
+					або<br>
+					margin-top: 20px;<br>
+					margin-bottom: 20px;</p>
+
+					<p>Різні значення <br>
+					margin-block: 10px 50px;<br>
+
+					margin-inline: 20px;<br>
+					=<br>
+					margin: 0px 20px;<br>
+					або<br>
+					margin: 0px 20px 0px 20px;<br>
+					або<br>
+					margin-left: 20px;<br>
+					margin-right: 20px;<br>
+
+					Різні значення <br>
+					margin-inline: 10px 50px;</p>
+
+
+					<p>Властивості для задання
+					відступів конкретній стороні </p>
+						
+
+
+					<p>Задає завнішній логічний блочний
+					відступ на початку елменту 
+						
+					margin-block-start: 20px;</p>
+
+
+					<p>Задає завнішній логічний блочний 
+					відступ в кінці елменту <br>
+						
+					margin-block-end: 30px;</p>
+
+
+					<p>Задає завнішній логічний рядковий
+					відступ на початку елменту <br>
+						
+					margin-inline-start: 50px;</p>
+
+					<p>Задає завнішній логічний рядковий 
+					відступ в кінці елменту <br>
+						
+					margin-inline-end: 80px;<br>
+
+					margin-inline-start: 50px;</p>
+
+					<p>Різниця між заданням відступів<br>
+
+					margin-left: 50px;<br>
+					writing-mode: vertical-rl;<br>
+						
+
+					margin-inline-start: 50px;<br>
+					writing-mode: vertical-rl;</p>
+						
+
+					<p>
+						.block {<br>
+						margin: 50px;<br>
+						margin-top: -10px;<br>
+
+						Приклад у %<br>
+						margin: 20%;
+					}<br>
+					</p>
+				</div>
+				<div class="margin-level-2-horizontal">
+					<h3>Level 2</h3>
+
+					<p>Задає однакові логічні блочні відступи на початку та вкінці
+					padding-block: ;<br>
+					Задає однакові логічні рядкові відступи зліва та справа
+					padding-inline: ;</p>
+
+					<p>padding-block: 20px;
+					=
+					padding: 20px 0px;<br>
+					або<br>
+					padding: 20px 0px 20px 0px;<br>
+					або<br>
+					padding-top: 20px;<br>
+					padding-bottom: 20px;</p>
+
+					<p>Різні значення <br>
+					padding-block: 10px 50px;<br>
+
+					padding-inline: 20px;
+					=
+					padding: 0px 20px;<br>
+					або<br>
+					padding: 0px 20px 0px 20px;<br>
+					або<br>
+					padding-left: 20px;
+					padding-right: 20px;<br>
+
+					Різні значення <br>
+					padding-inline: 10px 50px;</p>
+				</div>
+			</section>
+
+<!-- ================================================== COLLAPS ================================================== -->
+
+			<div class="fourth-section-collaps">
+				<div>BODY Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, modi? Sit tempore numquam quas nesciunt error. Illo possimus veniam tempora voluptatibus excepturi ut nesciunt in harum, necessitatibus animi corporis incidunt! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam asperiores quis, accusantium voluptates aperiam velit explicabo! Aut, consequuntur et nam vitae doloremque quasi? Dolorem quas quae totam ut voluptatum nobis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam totam odio eius porro. Doloremque nostrum maxime nemo vitae obcaecati tenetur, accusantium incidunt, dolor reiciendis officia quis! Quidem optio recusandae incidunt?</div>
+				<span>INLINE Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi ipsum molestiae labore similique rem culpa omnis, delectus quam voluptatibus eaque quas quasi? Alias accusantium error suscipit sapiente voluptatum blanditiis recusandae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut quisquam, nesciunt aspernatur eligendi enim adipisci ab distinctio fuga fugit mollitia laudantium quibusdam totam veniam similique optio illo vitae quod? Labore! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus rem natus nam iure, doloremque autem quisquam totam earum perspiciatis ad numquam, molestiae sequi exercitationem ea! Natus eligendi laboriosam sint ratione.</span>
+				<img src="img/ukraine.jpeg" alt="Ukraine" class="inline-block">
+			</div>
+
+<!-- ================================================== RULES ================================================== -->
+
+			<div class="fifth-section-rules">
+				<div class="rules-container">
+					<div class="widh-rules">
+					<p>/*
+						width - чітко задає ширину блочного (блочно-рядкового) 
+						об'єкту.<br>
+						НЕ працює зі рядковими об'єктами
+						width: значення;<br>
+						auto - (за замовченням) автоматичний розмір<br>
+						НЕ успадковується
+					*/</p>
+					<p>/*
+						max-width <br>
+						Встановлює максимальну ширину 
+						блочних (блочно-рядкових) тегів 
+						Властивість не успадковується <br>
+						НЕ працює зі рядковими об'єктами
+					*/</p>
+					<p>/*
+						min-width <br>
+						Встановлює мінімальну ширину 
+						блочних (блочно-рядкових) тегів <br>
+						Властивість не успадковується <br>
+						НЕ працює зі рядковими об'єктами
+					*/</p>
+					<p>/* 
+					Значення у %
+					% береться від ширини батьківського об'єкту
+					*/</p>
+					<p>/*
+					.block {<br>
+						width: 150px;<br>
+					}<br>
+					.inline {<br>
+						width: 100000050px;<br>
+					}<br>
+					.inline-block {<br>
+						width: 100px;<br>
+					}*/</p>
+					<p>.block {<br>
+						/*<br>
+						max-width: 600px;<br>
+						min-width: 300px;<br>
+						*/<br>
+
+						/* margin-left: 50px; */<br>
+						/* width: auto; */<br>
+						/* width: 100%; */<br>
+					}</p>
+				</div>
+				</div>
+			</div>
+
+<!-- ================================================== OVERFLOW ================================================== -->
+
+			<div class="sixth-overflow">
+				<div class="overflow-container">
+					<p>
+						/* Підключення фрифтів */
+
+						/* Google Fonts (Plugin) */
+						/* @import url("https://fonts.googleapis.com/css?family=Manrope:regular,500,600,700&display=swap"); */
+
+						/* Локальне підключення шрифтів */
+						@import url("fonts.css");
+
+						/* Скидання стилів */
+						@import url("reset.css");
+
+						/* Основні стилі */
+						body {
+							font-family: "Gilroy", sans-serif;
+							background-color: #333;
+							color: #fff;
+						}
+
+						/* ======================================================== */
+						/* --------------- CSS-властивості блоків ----------------- */
+						/* ======================================================== */
+
+						.block {
+							background-color: #77608d;
+						}
+						.inline {
+							background-color: #7a956b;
+						}
+						.inline-block {
+							background-color: #794f45;
+						}
+
+						/* ======================================================== */
+
+						/* Відступи */
+						/* Відступи неочікувано працюють для рядкових об'єктів */
+						/* Відступи прийнято задавати для батьківського об'єкту */
+
+						/*
+						padding - Внутрішній відступ. 
+						Відступи (відстань) ВСЕРЕДЕНІ об'єкту. 
+						Від кордонів об'єкту ДО ЙОГО КОНТЕНТУ
+						НЕ успадковується
+
+						Анатомія значення відступів:
+						- Цифрове значення + одиниця виміру (10px, 50%... і т.д.)
+						- Не може бути від'ємним
+						- При вказанні значення у відсотках
+						відсоток береться від ШИРИНИ батьківського об'єкту,
+						навіть для вертикальних відступів 
+
+						padding: з_усіх_сторін;
+						padding: зверху_знизу зправа_зліва;
+						padding: зверху зправа_зліва знизу;
+						padding: зверху зправа знизу зліва;
+						(годинникова стрілка)
+
+						padding-top: значення;
+						padding-right: значення;
+						padding-bottom: значення;
+						padding-left: значення;
+						*/
+
+						/* Level 2 */
+
+						/* Задає однакові логічні блочні відступи на початку та вкінці */
+						/* padding-block: ; */
+						/* Задає однакові логічні рядкові відступи зліва та справа */
+						/* padding-inline: ; */
+
+						/* padding-block: 20px; */
+						/* = */
+						/* padding: 20px 0px; */
+						/* або */
+						/* padding: 20px 0px 20px 0px; */
+						/* або */
+						/* padding-top: 20px; */
+						/* padding-bottom: 20px; */
+
+						/* Різні значення  */
+						/* padding-block: 10px 50px; */
+
+						/* padding-inline: 20px; */
+						/* = */
+						/* padding: 0px 20px; */
+						/* або */
+						/* padding: 0px 20px 0px 20px; */
+						/* або */
+						/* padding-left: 20px; */
+						/* padding-right: 20px; */
+
+						/* Різні значення  */
+						/* padding-inline: 10px 50px; */
+
+						/* 
+							Властивості для задання 
+							відступів конкретній стороні 
+							*/
+
+						/* 
+							Задає внутрішній логічний блочний
+							відступ на початку елменту 
+							*/
+						/* padding-block-start: 20px; */
+
+						/* 
+							Задає внутрішній логічний блочний 
+							відступ в кінці елменту 
+							*/
+						/* padding-block-end: 30px; */
+
+						/* 
+							Задає внутрішній логічний рядковий
+							відступ на початку елменту 
+							*/
+						/* padding-inline-start: 50px; */
+						/* 
+							Задає внутрішній логічний рядковий 
+							відступ в кінці елменту 
+							*/
+						/* padding-inline-end: 80px; */
+
+						/* padding-inline-start: 50px; */
+
+						/* Різниця між заданням відступів */
+						/*
+							padding-left: 50px;
+							writing-mode: vertical-rl;
+							*/
+						/*
+							padding-inline-start: 50px;
+							writing-mode: vertical-rl;
+						*/
+
+						.block {
+							/* padding: 20px; */
+							/* padding: 20px 50px; */
+							/* padding: 20px 50px 30px; */
+							/* padding: 15px 30px 10px 50px; */
+
+							/*
+							padding-top: 20px;
+							padding-right: 30px;
+							padding-bottom: 50px;
+							padding-left: 15px;
+							*/
+							/* 
+								Використовуємо, коли маємо 
+								відступ лише з однієї сторони 
+							*/
+							/* padding-left: 20px; */
+
+							/* padding: 20px; */
+
+							/* Приклад у % */
+							/*
+							padding-left: 20%;
+							padding-top: 20%;
+							*/
+						}
+
+						.inline {
+							/*
+							padding-left: 50px;
+							padding-right: 50px;
+							*/
+							/*
+							padding-top: 50px;
+							padding-bottom: 20px;
+							*/
+						}
+
+						.inline-block {
+							/* padding: 20px; */
+						}
+
+						/*
+						margin - Зовнішній відступ.
+						Відступи ЗОВНІ об'єкту до інших об'єктів. 
+						НЕ успадковується
+
+						Особливості:
+						- Значення можуть бути від'ємними!
+						- Спрацьовує ефект "схлопування" 
+							(накладання, колапс, згортання)
+
+						margin: з_усіх_сторін;
+						margin: зверху_знизу зправа_зліва;
+						margin: зверху зправа_зліва знизу;
+						margin: зверху зправа знизу зліва;
+
+						margin-top: значення;
+						margin-right: значення;
+						margin-bottom: значення;
+						margin-left: значення;
+						*/
+
+						/* Level 2 */
+
+						/* Задає однакові логічні блочні відступи на початку та вкінці */
+						/* margin-block: ; */
+						/* Задає однакові логічні рядкові відступи зліва та справа */
+						/* margin-inline: ; */
+
+						/* margin-block: 20px; */
+						/* = */
+						/* margin: 20px 0px; */
+						/* або */
+						/* margin: 20px 0px 20px 0px; */
+						/* або */
+						/* margin-top: 20px; */
+						/* margin-bottom: 20px; */
+
+						/* Різні значення  */
+						/* margin-block: 10px 50px; */
+
+						/* margin-inline: 20px; */
+						/* = */
+						/* margin: 0px 20px; */
+						/* або */
+						/* margin: 0px 20px 0px 20px; */
+						/* або */
+						/* margin-left: 20px; */
+						/* margin-right: 20px; */
+
+						/* Різні значення  */
+						/* margin-inline: 10px 50px; */
+
+						/* 
+							Властивості для задання 
+							відступів конкретній стороні 
+							*/
+
+						/* 
+							Задає завнішній логічний блочний
+							відступ на початку елменту 
+							*/
+						/* margin-block-start: 20px; */
+
+						/* 
+							Задає завнішній логічний блочний 
+							відступ в кінці елменту 
+							*/
+						/* margin-block-end: 30px; */
+
+						/* 
+							Задає завнішній логічний рядковий
+							відступ на початку елменту 
+							*/
+						/* margin-inline-start: 50px; */
+						/* 
+							Задає завнішній логічний рядковий 
+							відступ в кінці елменту 
+							*/
+						/* margin-inline-end: 80px; */
+
+						/* margin-inline-start: 50px; */
+
+						/* Різниця між заданням відступів */
+						/*
+							margin-left: 50px;
+							writing-mode: vertical-rl;
+							*/
+						/*
+							margin-inline-start: 50px;
+							writing-mode: vertical-rl;
+							*/
+
+						.block {
+							/* margin: 50px; */
+							/* margin-top: -10px; */
+
+							/* Приклад у % */
+							/* margin: 20%; */
+						}
+
+						/*
+						Ефект "схлопування" 
+						(накладання, колапс, згортання) margin.
+						Виникає коли зовнішній відступ 
+						заданий сусіднім об'єктам.
+
+						Значання відступу буде дорівнювати 
+						найбільшому з 2х значеннь.
+						Відступ margin прийнято задавати з ліва направо
+						та зверху вниз
+						*/
+						/*
+						.block {
+							margin-bottom: 50px;
+						}
+						.block-2 {
+							margin-top: 30px;
+							background-color: #794f45;
+						}
+						*/
+
+						.inline {
+							/*
+							margin-top: 50px;
+							margin-bottom: 50px;
+							margin-left: 50px;
+							margin-right: 50px;
+							*/
+						}
+						.inline-block {
+							/*
+							margin-top: 10px;
+							margin-bottom: 50px;
+							margin-left: 20px;
+							margin-right: 50px;
+							*/
+						}
+
+						/* 
+							!!!!!!!!!!
+							Для того, щоб вдало застосовати той чи інший відступ
+							проговорюємо вголос:
+							1 який тип відступу треба (внутрішній чи зовнішній)?
+							2 для якого об'єкту треба задати відступ?
+						*/
+
+						.block {
+							/* padding: 20px; */
+							/* Відступ саме між об'єктом .block та оточенням */
+							margin-bottom: 50px;
+						}
+						.block p {
+							/* Відступ саме між об'єктами p та оточенням */
+							margin-bottom: 30px;
+						}
+
+						/*
+							width - чітко задає ширину блочного (блочно-рядкового) 
+							об'єкту.
+							НЕ працює зі рядковими об'єктами
+							width: значення;
+							auto - (за замовченням) автоматичний розмір
+							НЕ успадковується
+						*/
+						/*
+							max-width 
+							Встановлює максимальну ширину 
+							блочних (блочно-рядкових) тегів 
+							Властивість не успадковується 
+							НЕ працює зі рядковими об'єктами
+						*/
+						/*
+							min-width 
+							Встановлює мінімальну ширину 
+							блочних (блочно-рядкових) тегів 
+							Властивість не успадковується 
+							НЕ працює зі рядковими об'єктами
+						*/
+
+						/* 
+							Значення у %
+							% береться від ширини батьківського об'єкту
+						*/
+
+						/*
+						.block {
+							width: 150px;
+						}
+						.inline {
+							width: 100000050px;
+						}
+						.inline-block {
+							width: 100px;
+						}*/
+
+						.block {
+							/*
+							max-width: 600px;
+							min-width: 300px;
+							*/
+
+							/* margin-left: 50px; */
+							/* width: auto; */
+							/* width: 100%; */
+						}
+
+						/*
+						height 
+						Встановлює чітку висоту блочних (блочно-рядкових) тегів 
+						Властивість не успадковується 
+						НЕ працює зі рядковими об'єктами
+
+						min-height 
+						Встановлює мінімальну висоту 
+						блочних (блочно-рядкових) тегів 
+						Властивість не успадковується 
+						НЕ працює зі рядковими об'єктами
+
+						max-height 
+						Встановлює максимальну 
+						висоту блочних (блочно-рядкових) тегів 
+						Властивість не успадковується 
+						НЕ працює зі рядковими об'єктами
+						*/
+
+						.block {
+							/* height: 200px; */
+							/* max-height: 100px; */
+						}
+
+						/* Level 2 */
+
+						/* Задає логічний рядкорий розмір об'єкту */
+						/* inline-size: ; */
+						/* Задає логічний блочний розмір об'єкту */
+						/* block-size: ; */
+
+						/*
+							inline-size: 200px;
+							block-size: 150px;
+
+							мінімальні та максимальні обмеження
+
+							max-inline-size
+							max-block-size
+
+							min-inline-size
+							min-block-sizes
+							*/
+
+						.block {
+							/*
+							width: 300px;
+							writing-mode: vertical-rl;
+							*/
+
+							/*
+							inline-size: 300px;
+							writing-mode: vertical-rl;
+							*/
+						}
+
+						/*
+						box-sizing
+						Застосовується для зміни алгоритму обчислення величин
+						content-box - (за замовченням) додає відступи
+						до розміру об'єкту
+						border-box - значення розмірів враховують відступи
+						*/
+						/*
+						.block {
+							border-left: 10px solid #000;
+							margin-left: 50px;
+							padding-left: 50px;
+							width: 500px;
+						}
+						*/
+
+						/*
+							overflow 
+							Керує відображенням контенту блочного елементу
+							Властивість не успадковується
+							visible - (за замовченням) Відображається усесь 
+							контент елемента, навіть за межами встановлених розмірів
+							hidden - Відображається тільки контент всередені елемента,
+							clip - Майже теж саме що й hidden.
+							все інше буде сховано
+							scroll - Завжди додаються смужки прокрутки
+							auto - Смужки прокрутки додаються лише за необхідністю
+
+							Тільки вертикаль
+							overflow-y: ; 
+							Тільки горизонталь
+							overflow-x: ;
+						*/
+						.block {
+							/* height: 200px; */
+							/* overflow: auto; */
+						}
+
+						/*
+						vertical-align - Визначає вертикальне верівнювання 
+						блочно-рядкових або блочно-рядкових + рядкових об'єктів.
+						top
+						middle
+						bottom
+						*/
+
+						.inline-block {
+							/* vertical-align: middle; */
+						}
+
+						/*
+							display
+							Багатоцільова властивість яка задає 
+							глобальні параметри тега. 
+							Властивість не успадковується
+							block - (за замовченням для блочних об'ектів) 
+							Елемент відображається як блочний.
+							inline - (за замовченням для рядкових об'ектів)  
+							Елемент відображається як рядковий.
+							inline-block - (блочно-рядковий) 
+							Елемент відображається як 
+							рядковий але з можливістю 
+							використання усіх CSS-властивостей.
+							none - Елемент не виводиться в браузер. 
+							Інші елементи займають його місце.
+							Не приймає участь у обробці браузером.
+						*/
+
+						.block {
+							/* display: block; (за замовченням) */
+						}
+						.inline {
+							width: 500px;
+							/* display: inline; (за замовченням) */
+						}
+						.inline-block {
+							/* display: inline-block; (за замовченням) */
+							/* display: block; */
+							/* 
+							Нічого не змінює 
+							display: inline;
+							*/
+						}
+
+						/* Центрування блоку */
+						/*
+						1 Об'єкт має бути блочним
+						2 Об'єкт має мати меньшу ширину
+							за батьківський елемент
+						3 Додаємо margin: 0 auto;
+						*/
+
+						.block {
+							max-width: 500px;
+							margin: 0 auto;
+							/* або */
+							/* margin-inline: auto; */
+						}
+
+						.section {
+							max-width: 500px;
+							margin: 0 auto;
+							overflow: hidden;
+							background-color: #794f45;
+						}
+						.items {
+							margin-left: -5px;
+							margin-right: -5px;
+							font-size: 0;
+						}
+						.item {
+							width: 33.333%;
+							display: inline-block;
+							margin-bottom: 10px;
+							padding-left: 5px;
+							padding-right: 5px;
+							vertical-align: top;
+						}
+
+						.content {
+							font-size: 18px;
+							background-color: #7a956b;
+							text-align: center;
+							padding: 25px;
+						}
+
+					</p>
+				</div>
+			</div>
+		</header>
+		<main>
+<!-- ================================================== МАКЕТ 1 ================================================== -->
+
+			<section class="maket-1">
+				<div class="maket-1_container">
+					<div class="maket-1_heading">
+					<p>We Provide you streaming experience across various devices.</p>
+					</div>
+					<div class="maket-1_text">
+						<p>With StreamVibe, you can enjoy your favorite movies and TV shows anytime, anywhere. Our platform is designed to be compatible with a wide range of devices, ensuring that you never miss a moment of entertainment.</p>
+					</div>
+					<div class="maket-1_cards">
+						<div class="item-container-m3">
+							<div class="item">
+							<div class="item-title">
+								<img src="icons/dark_1/Icon_Container.png" alt="#" class="item-image">
+								<h3>Smartphones</h3>
+							</div>
+							<div class="item-text">StreamVibe is optimized for both Android and iOS smartphones. Download our app from the Google Play Store or the Apple App Store</div>
+						</div>
+						</div>
+						<div class="item-container-m3">
+							<div class="item">
+							<div class="item-title">
+								<img src="icons/dark_1/Icon_Container2.png" alt="#" class="item-image">
+								<h3>Tablet</h3>
+							</div>
+							<div class="item-text">StreamVibe is optimized for both Android and iOS smartphones. Download our app from the Google Play Store or the Apple App Store</div>
+						</div>
+						</div>
+						<div class="item-container-m3">
+							<div class="item">
+							<div class="item-title">
+								<img src="icons/dark_1/Icon_Container3.png" alt="#" class="item-image">
+								<h3>Smart TV</h3>
+							</div>
+							<div class="item-text">StreamVibe is optimized for both Android and iOS smartphones. Download our app from the Google Play Store or the Apple App Store</div>
+						</div>
+						</div>
+						<div class="item-container-m3">
+							<div class="item">
+							<div class="item-title">
+								<img src="icons/dark_1/Icon_Container4.png" alt="#" class="item-image">
+								<h3>Laptops</h3>
+							</div>
+							<div class="item-text">StreamVibe is optimized for both Android and iOS smartphones. Download our app from the Google Play Store or the Apple App Store</div>
+						</div>
+						</div>
+						<div class="item-container-m3">
+							<div class="item">
+							<div class="item-title">
+								<img src="icons/dark_1/Icon_Container5.png" alt="#" class="item-image">
+								<h3>Gaming Consoles</h3>
+							</div>
+							<div class="item-text">StreamVibe is optimized for both Android and iOS smartphones. Download our app from the Google Play Store or the Apple App Store</div>
+						</div>
+						</div>
+						<div class="item-container-m3">
+							<div class="item">
+							<div class="item-title">
+								<img src="icons/dark_1/Icon_Container6.png" alt="#" class="item-image">
+								<h3>VR Headsets</h3>
+							</div>
+							<div class="item-text">StreamVibe is optimized for both Android and iOS smartphones. Download our app from the Google Play Store or the Apple App Store</div>
+						</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+<!-- ================================================== МАКЕТ 2 ================================================== -->
+
+			<section class="maket-2">
+				<div class="maket-2-container">
+					<div class="maket-2-text">
+						<h1>Introduce Your Product Quickly & Effectively</h1>
+						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+						<p>Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
+					</div>
+					<div class="buttons">
+						<div class="button-1">Purchase UI Kit</div>
+						<div class="button-2">Learn More</div>
+					</div>
+				</div>
+			</section>
+
+<!-- ================================================== МАКЕТ 3 ================================================== -->
+
+			<section class="maket-3">
+				<div class="maket-3-container">
+					<div class="maket-3-text">
+						<h1>Design & Build Your Own Landing Pages</h1>
+						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+						<p>Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
+					</div>
+					<div class="cards-m3">
+						<div class="item-m3">
+							<img src="icons/3/Icon.png" alt="#">
+							<h3>Title Goes Here</h3>
+							<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. </p>
+						</div>
+						<div class="item-m3 last-m3">
+							<img src="icons/3/Icon.png" alt="#">
+							<h3>Title Goes Here</h3>
+							<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. </p>
+						</div>
+						<div class="item-m3 bottom-m3">
+							<img src="icons/3/Icon.png" alt="#">
+							<h3>Title Goes Here</h3>
+							<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. </p>
+						</div>
+						<div class="item-m3 last-m3 bottom-m3">
+							<img src="icons/3/Icon.png" alt="#">
+							<h3>Title Goes Here</h3>
+							<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. </p>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+	</body>
+</html>
