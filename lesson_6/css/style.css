@@ -1,0 +1,667 @@
+
+/* GOOGLE FONTS   */
+/* 
+ОПТИМІЗОВАНІ ШРИФТИ
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@700&display=swap'); */
+
+/* @import url(https://fonts.googleapis.com/css?family=Manrope:300,regular,500,700); */
+
+/* ОПТИМІЗОВАНІ ШРИФТИ */
+/* @import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@600&display=swap'); */
+
+/* ОПТИМІЗОВАНІ ШРИФТИ */
+/* @import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,700&display=swap'); */
+
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500&display=swap'); */
+
+/* @import url(https://fonts.googleapis.com/css?family=Bungee+Tint:regular); */
+
+/* FONT EPILOGUE */
+/* @import url(https://fonts.googleapis.com/css?family=Epilogue:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic); */
+@import url('https://fonts.googleapis.com/css2?family=Epilogue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@900&display=swap');
+
+/* ЛОКАЛЬНЕ ПІДКЛЮЧЕННЯ ШРИФТІВ */
+@import url("fonts.css");
+
+/* RESET STYLES */
+@import url("reset.css");
+
+/* BODY */ 
+body {
+    /* font-family: "Manrope", sans-serif; */
+    font-family: "Gilroy", sans-serif;
+    font-size: 16px;
+    background-color: #7a956b;
+    /* background-color:#999999; */
+    /* color:indigo; */
+    color:black;
+}
+
+.wrapper {
+    min-height: 100%;
+    overflow: hidden; /* clip */
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding-inline: 15px;
+}
+
+.block {
+    background-color:cadetblue;
+    /* text-align: center; */
+}
+
+.link {
+    /* border: 5px solid #fff; */
+    color: yellow;
+    border-bottom: 2px dashed;
+}
+
+.inline {
+    /* display: inline-block; */
+    background-color:indigo;
+    /* text-align: center; */
+}
+
+.page .container {
+    margin-block-end: 30px;
+    /* margin: 0 auto; */
+}
+
+.page img.inline-block {
+    display: block;
+    margin: 0 auto;
+    margin-block-end: 60px;
+}
+
+.separation, .example {
+    text-align: center;
+    text-transform: uppercase;
+    color:orange;
+    font-weight: 700;
+    padding-block-end: 30px;
+}
+
+
+/* Сервіси які допоможуть: */
+/* https://9elements.github.io/fancy-border-radius/ */
+
+
+.section-border {
+    max-width: 500px;
+    border: 20px solid #0400ff;
+    margin-block-end: 30px;
+    margin: 0 auto;
+    margin-block-end: 30px;
+}
+
+.section-border h1 {
+    margin-block: 15px;
+}
+
+.section-border p {
+    margin-block-end: 10px;
+}
+
+.section-outline {
+    max-width: 500px;
+    border: 20px solid #1b8d0c;
+    margin: 0 auto;
+    margin-block-end: 30px;
+}
+
+.section-outline h1 {
+    margin-block: 15px;
+}
+
+.section-outline p {
+    margin-block-end: 10px;
+}
+
+.section-border-radius {
+    max-width: 500px;
+    border: 8px solid #b66700;
+    border-radius: 40px 20px 70px 5px;
+    padding: 15px;
+    margin: 0 auto;
+    margin-block-end: 30px;
+}
+
+.section-border-radius h1 {
+    margin-block: 15px;
+}
+
+.section-border-radius p {
+    margin-block-end: 10px;
+}
+
+.circle {
+	background-color: #d36983;
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+    margin-block-end: 15px;
+}
+
+.section-box-shadow {
+    max-width: 500px;
+    border: 8px solid #b66700;
+    box-shadow: 0px 0px 20px 0px #000;
+    padding: 15px;
+    margin: 0 auto;
+    margin-block-end: 30px;
+}
+
+section .box-shadow h1 {
+    margin-block: 15px;
+}
+
+section .box-shadow p {
+    margin-block-end: 10px;
+}
+
+.example-text {
+    padding-block-end: 40px;
+}
+
+.button {
+    background-color: red;
+    padding: 15px 25px;
+    border: 5px solid #0400ff;
+    border-radius: 15px;
+    box-shadow: 0 8px 0 0 #000;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 700;
+
+    /* Level 2 */
+    transition: all 0.2s;
+    position: relative;
+    top: 0;
+}
+
+/* Level 2 */
+.button:hover {
+    top: 3px;
+    box-shadow: 0 5px 0 0 #000;
+}
+
+.page .container {
+    margin-block-end: 50px;
+}
+
+
+/* ============================= Властивість background ======================== */
+/* Сервіси які допоможуть: */
+/* https://fls.guru/cssbackground.html */
+
+
+.background-block {
+    width: 500px;
+    height: 500px;
+    background-color: #1b8d0c;
+}
+
+.background-block {
+    margin: 50px;
+    width: 300px;
+    height: 300px;
+    background-color: #1b8d0c;
+    /* background-color: transparent; */
+}
+
+/* Встановлює фонове зображення елемента або задає градієнтну заливку ! Фонове зображення НЕ встановлює розміри об'єкту */ 
+	/* background-image: url("../img/honey.jpg"); */
+	/* background-image: linear-gradient(90deg, #ff3f3a 0%, #3a3dff 50%, #f75e05 100%); */
+
+.background-block-img {
+    width: 800px;
+    height: 450px;
+    background-image: url("../img/bg/pattern-banner-geometric-striped-ornament-monochrome-linear-background-illustration_1142-13881.avif");
+    margin-block-end: 30px;
+}
+
+
+/* ГРАДІЄНТ */
+/* Сервіси які допоможуть: */
+/* https://9elements.github.io/fancy-border-radius/ */ 
+
+.background-block-gradient {
+    width: 800px;
+    height: 450px;
+    /* background: rgb(2,0,36); */
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    margin-block-end: 30px;
+}
+
+/* 
+		Визначає, як повторюватиметься 
+		фонове зображення та градієнту 
+	*/
+
+	/* background-image: url("../img/repeat.jpg"); */
+	/* background-repeat: repeat; (за замовченням) */
+	/* Не повторяти */
+	/* background-repeat: no-repeat; */
+	/* Повтор по горизонталі */
+	/* background-repeat: repeat-x;
+	/* Повтор по вертикалі */
+	/* background-repeat: repeat-y; */
+
+.background-block-img-no-repeat {
+    width: 800px;
+    height: 450px;
+    padding: 10px;
+    /* border: 5px solid #1b8d0c; */
+    outline:5px solid #0400ff;
+    background-image: url(../img/bg/pngtree-seamless-repeat-pattern.jpg);
+    background-size: 200px;
+    background-repeat: no-repeat; /* (за замовченням - repeat)  */
+    margin-block-end: 30px;
+}
+
+.background-block-img-repeat {
+    width: 800px;
+    height: 450px;
+    background-image: url(../img/bg/pngtree-seamless-repeat-pattern.jpg);
+    background-size: 200px;
+    margin-block-end: 30px;
+}
+
+/*
+		Задає початкове положення фонового зображення та градієнту,
+		де перше значення (відсотки, px, слово) 
+		визначає розташування по горизонталі,
+		друге – вертикалі.
+
+		0 0 (або left top) - за замовченням 
+		center
+		top
+		left 
+		bottom
+		right
+ 
+		Значення у відсотках:
+		Горизонтальне залежить від ширини об'єкту
+		Вертикальне від висоти об'єкту
+		Значення 50% (center) розмістить зображення таким чином, 
+		що центральна точка зображення буде співпадати 
+		з центральною точкою об'єкту
+*/
+
+.background-block-img-position-1 {
+    width: 1000px;
+    height: 700px;
+    border: 5px solid #0400ff;
+    background-image: url(../img/ukraine.jpeg);
+    background-size: 400px;
+
+    background-repeat: no-repeat;
+    /* background-position: горизонталь вертикаль */
+    /* background-position: 20px 10px; */
+    /* background-position: center; */
+    /* background-position: 20% 10%; */
+    /* background-position: bottom right; */
+    margin-block-end: 30px;
+}
+
+
+	/* 
+	Керує встановленням фонового зображення відносно вікна браузера (в'юпорта), 
+	фонове зображення та градієнт перестає скралитись разом із вмістом елемента.
+
+	scroll - (за замовченням) позиціонується відносно 
+	елемента та скролиться разом з блоком
+	fixed - фонове зображення позиціонується відносно в'юпорта, 
+	НЕ скролиться разом з блоком
+	*/
+
+	/* background-attachment: fixed; */
+
+.background-block-img-position-2 {
+    margin: 0 auto;
+    width: 800px;
+    height: 800px;
+    border: 5px solid #0400ff;
+    background-image: url(../img/ukraine.jpeg);
+    background-size: 400px;
+    background-position: 180px 30px;
+    background-attachment: fixed;
+    margin-block-end: 30px;
+}
+
+	/*
+    CONTAIN & COVER
+	Масштабує фонове зображення та градієнт згідно з заданими розмірами. 
+	У цифрах, де перше значення (відсотки, px) визначає ширину,
+	друге – висоту. Або спеціальним значенням.
+
+	contain; - Масштабує зображення зі збереженням пропорцій таким чином, 
+	щоб картинка повністю помістилася всередину блоку. 
+	Тобто щонайменше картинки
+	cover - Масштабує зображення зі збереженням пропорцій так, 
+	щоб його ширина або висота дорівнювала ширині або висоті блоку. 
+	Тобто з більшого боку картинки
+	*/
+
+	/* background-size: ширина висота */
+	/* background-size: auto auto; (за замовченням) */
+	/* background-size: 200px; (ширина 200 а висота - відносно пропорційна (auto)) */
+	/* background-size: auto 200px; (навпаки) */
+	/* background-size: 200px 50px; (розтягування) */
+
+	/* background-size: contain; */
+
+	/* background-size: cover; */
+	/* background-position: center; */
+
+.section-background p {
+    max-width: 700px;
+    margin: 0 auto;
+    font-weight: 700;
+    margin-block-end: 10px;
+}
+
+.background-block-img-contain {
+    margin: 0 auto;
+    width: 800px;
+    height: 500px;
+    border: 5px solid #0400ff;
+    background-image: url(../img/ukraine.jpeg);
+    background-size: 400px; 
+    background-repeat: no-repeat;
+    margin-block-end: 40px;
+
+    background-size: contain;
+}
+
+.background-block-img-cover {
+    margin: 0 auto;
+    width: 800px;
+    height: 500px;
+    border: 5px solid #0400ff;
+    background-image: url(../img/ukraine.jpeg);
+    background-size: 400px; 
+    background-repeat: no-repeat;
+    margin-block-end: 40px;
+
+    background-size: cover;
+}
+
+	/* 
+	Універсальна властивість - background
+	Властивість background
+	Ця універсальна CSS властивість дозволяє одночасно 
+	задати кілька параметрів фону,
+	а саме визначити колір,  встановити фонове зображення, 
+	задати початкове положення фонового зображення,
+	визначити як повторюватиметься фонове зображення, 
+	встановити чи прокручуватиметься фонове зображення 
+	разом із вмістом і масштабувати фонове зображення 
+	відповідно до заданих розмірів.
+	Також значенням властивості background може 
+	бути вказана градієнтна заливка фону.
+	*/
+
+	/* background: green url("../img/honey.jpg") center / 200px no-repeat scroll; */
+
+	/* Мультіфони */
+
+	/*
+	background:
+		url("../img/honey.jpg") center / 100px no-repeat,
+		url("../img/building.jpg") 0 0 / 500px no-repeat,
+		linear-gradient(90deg, #ff3f3a 0%, #3a3dff 50%, #f75e05 100%);
+	*/
+
+.background-block-img-universal {
+    width: 800px;
+    height: 450px;
+    padding: 10px;
+    /* border: 5px solid #1b8d0c; */
+    outline:5px solid #0400ff;
+    background-image: url(../img/bg/pngtree-seamless-repeat-pattern.jpg);
+    background-size: 200px;
+    /* background-repeat: no-repeat; (за замовченням - repeat)  */
+
+    margin-block-end: 30px;
+
+    background: green url("../img/bg/pngtree-seamless-repeat-pattern.jpg") center / 400px no-repeat scroll;
+}
+
+.background-block-img-multi {
+    width: 800px;
+    height: 450px;
+    padding: 10px;
+    /* border: 5px solid #1b8d0c; */
+    outline:5px solid #0400ff;
+    /* background-image: url(../img/bg/pngtree-seamless-repeat-pattern.jpg); */
+    /* background-size: 200px; */
+    /* background-repeat: no-repeat; (за замовченням - repeat)  */
+
+    margin-block-end: 30px;
+
+	background:
+	/* 1 */	url("../img/ukraine.jpeg") center / 300px no-repeat,
+	/* 2 */	url("../img/bg/banner-geometric-striped-ornament-monochrome-linear-background-illustration_1142-12041.avif") 0 0 / 200px no-repeat,
+	/* 3 */	linear-gradient(90deg, #ff3f3a 0%, #3a3dff 50%, #f75e05 100%);
+}
+
+
+/* Стрілки на CSS */
+/*
+.arrow-left {
+	width: 0;
+	height: 0;
+	border-top: 50px solid transparent;
+	border-right: 100px solid green;
+	border-bottom: 50px solid transparent;
+}
+.arrow-right {
+	width: 0;
+	height: 0;
+	border-top: 50px solid transparent;
+	border-left: 100px solid green;
+	border-bottom: 50px solid transparent;
+}
+.arrow-top {
+	width: 0;
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 100px solid green;
+}
+.arrow-bottom {
+	width: 0;
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-top: 100px solid green;
+}*/
+
+/*    =====    LIST    ====== */ 
+
+
+
+/* ===================================================== MAKET 1 PORTFOLIO ============================================ */
+
+.section-portfolio {
+    padding-block: 100px;
+    margin-block-end: 50px;
+    background-color: #FDF0E9;
+}
+
+.portfolio-container {
+    max-width: 1170px;
+    min-height: 466px;
+    margin: 0 auto;
+    /* background-color:cadetblue; */
+}
+
+.portfolio-wrapper {
+    font-size: 0;
+}
+
+.block-text {
+    /* border: 5px solid #ff8800; */
+    display: inline-block;
+    width: 50%;
+    /* background-color: #fff; */
+    /* vertical-align: top; */
+}
+
+.block-image {
+    /* border: 5px solid #0400ff; */
+    display: inline-block;
+    width: 50%;
+    height: 466px;
+    /* background-color: #7e3535; */
+    background-image: url("../img/Portfolio-pic.png");
+    background-size: contain;
+    background-position: right;
+    background-repeat: no-repeat;
+    vertical-align: top;
+}
+
+.block-text h3 {
+    color: #EF6D58;
+    font-family: Epilogue;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 200%;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin-block: 50px 20px;
+}
+
+.block-text h1 {
+    color: #391400;
+    font-family: Epilogue;
+    font-size: 56px;
+    font-weight: 800;
+    line-height: 114.286%;
+    letter-spacing: -1px;
+    max-width: 430px;
+    margin-block-end: 26px;
+}
+
+.block-text p {
+    color: #391400;
+    font-family: Epilogue;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 160%;
+    max-width: 470px;
+    margin-block-end: 26px;
+}
+
+.block-text li {
+    color: rgba(57, 20, 0, 0.64);
+    font-family: Epilogue;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 200%;                             
+}
+
+.block-text .list__item {
+    background: url("../img/check.svg") 0 0 / 32px no-repeat;
+    margin-block-end: 10px;
+    padding-inline-start: 48px;
+    /* !!!!! ЗАПОБІЖНИК !!!!  */
+    min-height: 48px;
+}
+
+/* ===================================================== MAKET 2 Dark ============================================ */
+
+.section-dark {
+    background: #141414;
+    padding-block: 100px;
+}
+
+.dark-container {
+    max-width: 1920px;
+    min-height: 100%;
+    margin: 0 auto;
+    font-size: 0;
+}
+
+.dark-image-block {
+    width: 1920px;
+    height: 860px;
+    background: 
+        url("../img/Dark/abstract_design.png") center / 470px no-repeat,
+        linear-gradient(180deg, #141414 0%, rgba(20, 20, 20, 0.5) 50%, #141414 100%),
+        url("../img/Dark/group_1.png") 0 0 / cover no-repeat;
+        
+    /* background-size: cover; */
+    /* background-position: ; */
+    /* background-repeat: no-repeat; */
+    /* vertical-align: top; */
+}
+
+.dark-text-block{
+    max-width: 1096px;
+    margin: 0 auto;
+    margin-block-end: 50px;
+}
+.dark-text-block h1 {
+    color: #FFF;
+    text-align: center;
+    font-family: Manrope;
+    font-size: 58px;
+    font-weight: 700;
+    line-height: 150%;
+    margin-block-start: -64px;
+}
+
+.dark-text-block p {
+    color: var(--Grey-60, #999);
+    text-align: center;
+    font-family: Manrope;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.dark-button-wrapper {
+    /* max-width: 1096px; */
+    /* margin: 0 auto; */
+    text-align: center;
+}
+
+.dark-button {
+    min-width: 251px;
+    border-radius: 8px;
+    padding: 18px 24px 18px 4px;
+
+    background: #E50000 url("../img/Dark/white_arrow_icon.svg") 22px center / 28px no-repeat;
+    /* Те саме: */
+    /* background-color: #E50000; */
+    /* background-image: url("../img/Dark/white_arrow_icon.svg"); */
+    /* background-repeat: no-repeat; */
+    /* background-size: 28px; */
+    /* background-position: 0 0; */
+
+    /* !!! Запобіжник !! */
+    min-height: 28px;
+}
+
+.dark-button-span {
+    display: inline-block;
+    color: #FFF;
+    font-family: Manrope;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 150%;
+    padding-inline-start: 52px;
+}
