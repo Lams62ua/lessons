@@ -60,7 +60,6 @@ body {
 .container {
     max-width: 1230px;
     margin: 0 auto;
-    padding-block: 100px;
     padding-inline: 15px;
 }
 
@@ -106,7 +105,7 @@ h1 {
     max-width: 1150px;
     border: 2px dotted #fff;
     padding-block: 40px;
-    margin-block-end: 70px;
+    margin-block: 70px;
 }
 
 .section-1__task-1 h3 span {
