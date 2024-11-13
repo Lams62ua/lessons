@@ -1,0 +1,529 @@
+
+/* GOOGLE FONTS   */
+/* 
+ОПТИМІЗОВАНІ ШРИФТИ
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@700&display=swap'); */
+
+/* Manrope */
+@import url(https://fonts.googleapis.com/css?family=Manrope:300,regular,500,700);
+
+/* Work+Sans */
+/* @import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@600&display=swap'); */
+
+/* DM+Sans */
+/* @import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,700&display=swap'); */
+
+/* Roboto */
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500&display=swap'); */
+
+/* Bungee+Tint */
+/* @import url(https://fonts.googleapis.com/css?family=Bungee+Tint:regular); */
+
+/* Epilogue */
+/* @import url(https://fonts.googleapis.com/css?family=Epilogue:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic); */
+/* 
+@import url('https://fonts.googleapis.com/css2?family=Epilogue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@900&display=swap'); */
+
+/* Oswald */
+@import url(https://fonts.googleapis.com/css?family=Oswald:200,300,regular,500,600,700);
+
+/* ЛОКАЛЬНЕ ПІДКЛЮЧЕННЯ ШРИФТІВ */
+/* @import url("fonts.css"); */
+
+/* RESET STYLES */
+@import url("reset.css");
+
+/* BODY */ 
+body {
+    font-family: "Manrope", sans-serif;
+    /* font-family: "Oswald", sans-serif; */
+    font-size: 16px;
+    background-color: #7a956b;
+    /* background-color:#999999; */
+    /* color:indigo; */
+    color:black;
+}
+
+.wrapper {
+    min-height: 100%;
+    overflow: hidden; /* clip */
+}
+
+.container {
+    max-width: 1230px;
+    margin: 0 auto;
+    padding-block: 100px;
+    padding-inline: 15px;
+}
+
+/* ----------------------------------------- HEADER ----------------------------------------- */
+
+header {
+    /* width: 100%; */
+    min-height: 200px;
+    background-color: #fff;
+}
+
+h1 {
+    font-family: "Oswald";
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: 10px;
+    color: rgba(0, 0, 0, 0.8);
+    text-transform: uppercase;
+    line-height: 3;
+}
+
+.tasks_list {
+    font-family: "Oswald";
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+    letter-spacing: 7px;
+    color: rgba(0, 0, 0, 0.6);
+    text-transform: uppercase;
+    line-height: 1.5;
+
+    padding-block-end: 50px;
+}
+
+.tasks_list span {
+    color: red;
+}
+
+/* ----------------------------------------- MAIN ----------------------------------------- */
+
+.section-1__task-1 {
+    max-width: 1150px;
+    border: 2px dotted #fff;
+    padding-block: 40px;
+    margin-block-end: 70px;
+}
+
+.section-1__task-1 h3 span {
+    color:rgb(104, 4, 4);
+}
+
+.section-1__task-2 h3 span {
+    color:rgb(104, 4, 4);
+}
+
+.section-1__task-1 h3 {
+    font-size: 30px;
+    text-align: center;
+    font-family: "Oswald";
+    font-style: italic;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1.5;
+
+    margin-block-end: 40px;
+}
+
+.task-1__ul-1__container {
+    width: 1100px;
+    margin: 0 auto;
+    padding-inline-start: 180px;
+}
+
+.section-1__task-1 ul {
+    font-size: 24px;
+    /* font-weight: 400; */
+    /* vertical-align: top; */
+    /* text-align: left; */
+}
+
+.section-1__task-1 ul li:not(:last-child) {
+    /* margin-block-end: 30px; */
+}
+
+.section-1__task-1 ul li {
+    line-height: 4;
+}
+
+.section-1__task-1 ul li span {
+    width: 50px;
+    display: inline-block;
+    font-size: 24px;
+    vertical-align: middle;
+    /* text-align: center; */
+}
+
+.section-1__task-1 ul li img {
+    width: 150px;
+    padding-inline: 50px;
+    vertical-align: middle;
+}
+
+.section-1__task-1 ul li p {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 24px;
+}
+
+.section-1__task-1 ul:nth-child(2) li img {
+    width: 250px;
+}
+
+/* -------------------------- TASK 2 --------------------- */
+
+.section-1__task-2 {
+    max-width: 1150px;
+    border: 2px dotted #fff;
+    padding-block: 40px;
+    margin-block-end: 70px;
+}
+
+.section-1__task-2 h3 {
+    font-size: 30px;
+    text-align: center;
+    font-family: "Oswald";
+    font-style: italic;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1.5;
+
+    padding-block-end: 40px;
+}
+
+.task-2__ul-1__container {
+    width: 1100px;
+    margin: 0 auto;
+    padding-inline-start: 170px;
+}
+
+.section-1__task-2 ul {
+    font-size: 24px;
+    /* font-weight: 400; */
+    /* vertical-align: top; */
+    /* text-align: left; */
+}
+
+.section-1__task-2 ul li:not(:last-child) {
+    /* margin-block-end: 30px; */
+}
+
+.section-1__task-2 ul li {
+    line-height: 4;
+}
+
+.section-1__task-2 ul li span {
+    width: 50px;
+    display: inline-block;
+    font-size: 24px;
+    vertical-align: middle;
+    padding-inline-end: 80px;
+}
+
+.section-1__task-2 ul li p {
+    display: inline-block;
+    font-size: 24px;
+}
+
+/* EXAMPLES */
+/* .section-1__task-2 ul li p:before {
+    content: "";
+    width: 48px;
+    height: 48px;
+    display: inline-block;
+
+    background: url(../icons/icon_logo_1.svg) 0 0 / 48px no-repeat;
+    vertical-align: middle;
+    padding-inline-end: 80px;
+} */
+
+/* .section-1__task-2 ul:first-child p:before {
+    content: "";
+    width: 48px;
+    height: 48px;
+    display: inline-block;
+
+    background: url(../icons/icon_logo_1.svg) 0 0 / 48px no-repeat;
+    vertical-align: middle;
+    padding-inline-end: 100px;
+} */
+
+.section-1__task-2 ul:first-child li:nth-child(1) p:before {
+    content: "";
+    width: 48px;
+    height: 48px;
+    display: inline-block;
+
+    background: url(../icons/icon_logo_1.svg) 0 0 / 48px no-repeat;
+    vertical-align: middle;
+    padding-inline-end: 100px;
+}
+
+.section-1__task-2 ul:first-child li:nth-child(2) p:before {
+    content: "";
+    width: 48px;
+    height: 48px;
+    display: inline-block;
+
+    background: url(../icons/icon_calender.svg) 0 0 / 48px no-repeat;
+    vertical-align: middle;
+    padding-inline-end: 100px;
+}
+
+.section-1__task-2 ul:first-child li:nth-child(3) p:before {
+    content: "";
+    width: 48px;
+    height: 48px;
+    display: inline-block;
+
+    background: url(../icons/icon_case.svg) 0 0 / 48px no-repeat;
+    vertical-align: middle;
+    padding-inline-end: 100px;
+}
+
+.section-1__task-2 ul:first-child li:nth-child(4) p:before {
+    content: "";
+    width: 48px;
+    height: 48px;
+    display: inline-block;
+
+    background: url(../icons/icon_present.svg) 0 0 / 48px no-repeat;
+    vertical-align: middle;
+    padding-inline-end: 100px;
+}
+
+.section-1__task-2 ul:first-child li:nth-child(5) p:before {
+    content: "";
+    width: 48px;
+    height: 48px;
+    display: inline-block;
+
+    background: url(../icons/icon_triangle.svg) 0 0 / 34px no-repeat;
+    vertical-align: middle;
+    padding-inline-end: 100px;
+}
+
+.section-1__task-2 ul:first-child li:nth-child(6) p:before {
+    content: "";
+    width: 48px;
+    height: 52px;
+    display: inline-block;
+
+    background: url(../icons/icon_facebook.svg) 0 0 / 36px no-repeat;
+    vertical-align: middle;
+    padding-inline-end: 100px;
+}
+
+.section-1__task-2 ul:first-child li:nth-child(7) p:before {
+    content: "";
+    width: 48px;
+    height: 48px;
+    display: inline-block;
+
+    background: url(../icons/icon_twitter.svg) 0 0 / 48px no-repeat;
+    vertical-align: middle;
+    padding-inline-end: 100px;
+}
+
+.section-1__task-2 ul:first-child li:nth-child(8) p:before {
+    content: "";
+    width: 48px;
+    height: 48px;
+    display: inline-block;
+
+    background: url(../icons/icon_instagram.svg) 0 0 / 48px no-repeat;
+    vertical-align: middle;
+    padding-inline-end: 100px;
+}
+
+.section-1__task-2 ul:first-child li:nth-child(9) p:before {
+    content: "";
+    width: 48px;
+    height: 48px;
+    display: inline-block;
+
+    background: url(../icons/icon_quotes.svg) 0 0 / 48px no-repeat;
+    vertical-align: middle;
+    padding-inline-end: 100px;
+}
+
+.section-1__task-2 ul:last-child li:nth-child(1) p:before {
+    content: "";
+    width: 160px;
+    height: 48px;
+    display: inline-block;
+
+    background: url(../icons/icon_digitalside.svg) 0 0 / 160px no-repeat;
+    vertical-align: middle;
+    padding-inline-end: 200px;
+}
+
+.section-1__task-2 ul:last-child li:nth-child(2) p:before {
+    content: "";
+    width: 160px;
+    height: 48px;
+    display: inline-block;
+
+    background: url(../icons/icon_vortex.svg) 0 0 / 160px no-repeat;
+    vertical-align: middle;
+    padding-inline-end: 200px;
+}
+
+.section-1__task-2 ul:last-child li:nth-child(3) p:before {
+    content: "";
+    width: 160px;
+    height: 48px;
+    display: inline-block;
+
+    background: url(../icons/icon_travel_explorer.svg) 0 0 / 160px no-repeat;
+    vertical-align: middle;
+    padding-inline-end: 200px;
+}
+
+.section-1__task-2 ul:last-child li:nth-child(4) p:before {
+    content: "";
+    width: 160px;
+    height: 48px;
+    display: inline-block;
+
+    background: url(../icons/icon_fuzion.svg) 0 0 / 160px no-repeat;
+    vertical-align: middle;
+    padding-inline-end: 200px;
+}
+
+.section-1__task-2 ul:last-child li:nth-child(5) p:before {
+    content: "";
+    width: 160px;
+    height: 48px;
+    display: inline-block;
+
+    background: url(../icons/icon_mediafury.svg) 0 0 / 160px no-repeat;
+    vertical-align: middle;
+    padding-inline-end: 200px;
+    margin-block-start: 10px;
+}
+
+/* -------------------------------------------------------- SECTION 2 ------------------------------ */
+
+.section-2__task-1 {
+    max-width: 1170px;
+    margin-block-end: 70px;
+}
+
+.section-2__task-1 h3 {
+    font-size: 30px;
+    text-align: center;
+    font-family: "Oswald";
+    font-style: italic;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1.5;
+
+    margin-block-end: 40px;
+}
+
+.section-2__task-1 p {
+    color:rgb(75, 0, 0);
+    font-size: 24px;
+    margin-block-end: 20px;
+    /* text-align: center; */
+}
+
+.section-2__task-1 p span {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.section-2__task-1 img:not(:last-child) {
+    margin-block-end: 50px;
+}
+
+/* -------------------------------------------------------- SECTION 3 ------------------------------ */
+
+.section-3 {
+    width: 2340px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.section-3__task-1 {
+    max-width: 2000px;
+    margin: 0 auto;
+    border: 2px dotted #fff;
+    padding-block: 40px;
+    padding-inline: 15px;
+    margin-block-end: 120px;
+
+    overflow:auto;
+}
+
+.section-3__task-1 h3, 
+.section-3__task-2 h3 {
+    font-size: 30px;
+    text-align: center;
+    font-family: "Oswald";
+    font-style: italic;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1.5;
+
+    margin-block-end: 40px;
+}
+.section-3__task-1 h3 span, 
+.section-3__task-2 h3 span {
+    color: darkred;
+}
+
+.section-3__task-1 p, 
+.section-3__task-2 p {
+    color:rgb(75, 0, 0);
+    font-size: 24px;
+    margin-block-end: 20px;
+    /* text-align: center; */
+}
+
+.section-3__task-1 p span, 
+.section-3__task-2 p span {
+    color:rgb(168, 3, 3);
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.section-3__task-1 img {
+    margin-block-end: 70px;
+    overflow: scroll;
+}
+
+/* TASK 2 */
+.section-3__task-2 {
+    text-align: center;
+    /* margin: 0 auto; */
+}
+.section-3__task-2 img {
+    margin-block-end: 70px;
+}
+
+/* FOOTER */
+
+footer {
+    width: 100%;
+    height: 200px;
+    background-color: #fff;
+    margin: 0 auto;
+    padding-block: 30px;
+    padding-inline: 15px;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+}
+footer h2 {
+    font-family: Oswald, sans-serif;
+    letter-spacing: 8px;
+    font-size: 36px;
+    font-weight: 900;
+    line-height: 3;
+}
